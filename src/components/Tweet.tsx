@@ -8,7 +8,7 @@ interface TweetProps {
 
 export function Tweet({ content }: TweetProps) {
   return (
-    <Link to="/status" className="tweet">
+    <Link to="/masterclass-react/status" className="tweet">
       <img src="https://github.com/vbruno96.png" alt="Bruno Vinícius" />
       <div className="tweet-content">
         <div className="tweet-content-header">

@@ -18,7 +18,7 @@ export function Sidebar() {
     <aside className="sidebar">
         <img src={logo} alt="Twitter Logo" className="logo" />
         <nav className="main-navigation">
-          <NavLink to="/">
+          <NavLink to="/masterclass-react">
             <House weight="fill" />
             <span>Home</span>
           </NavLink>

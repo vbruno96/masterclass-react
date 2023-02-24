@@ -6,11 +6,11 @@ import { PageNotFound } from "./pages/PageNotFound";
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/masterclass-react',
     element: <App />,
     children: [
       {
-        path: '/',
+        path: '',
         element: <Timeline />
       },
       {
@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <Navigate replace to='/404/' />
+        element: <Navigate replace to='/masterclass-react/404' />
       }
     ]
   },
