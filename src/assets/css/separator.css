@@ -1,0 +1,6 @@
+.separator {
+  height: .75rem;
+  background: #202020;
+  border-top: .06rem solid #2F2F2F;
+  border-bottom: .06rem solid #2F2F2F;
+}
